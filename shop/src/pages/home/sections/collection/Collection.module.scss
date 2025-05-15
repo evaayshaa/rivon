@@ -1,0 +1,137 @@
+.shop{
+    width: 100%;
+    margin: 0 auto;
+
+
+    .container{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+      margin-top: 20px;
+      
+      
+      .cards{
+           
+            margin: 0 auto;
+      text-align: center;
+            width: 67%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+         
+    
+            .card{
+           
+                width: 40%;
+                align-items:center;
+                justify-content: space-between;
+                text-align: center;
+              
+               
+    img{
+        width:400px;
+    }
+            
+    
+    
+    
+        }
+    }
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+    .shop{
+        width: 100%;
+        margin: 0 auto;
+    
+    
+        .container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+          margin-top: 20px;
+          
+          
+          .cards{
+               
+                margin: 0 auto;
+          text-align: center;
+                width: 80%;
+             
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+             
+        
+                .card{
+               
+                    width: 60%;
+                    align-items:center;
+                    justify-content: space-between;
+                    text-align: center;
+                  
+                   
+        img{
+            width:400px;
+        }
+                
+        
+        
+        
+            }
+        }
+        }
+    }
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+    .shop{
+        width: 100%;
+        margin: 0 auto;
+    
+    
+        .container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+          margin-top: 20px;
+          
+          
+          .cards{
+               
+                margin: 0 auto;
+          text-align: center;
+                width: 80%;
+             display: block;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+             
+        
+                .card{
+               
+                    width: 60%;
+                    align-items:center;
+                    justify-content: space-between;
+                    text-align: center;
+                  
+                   
+        img{
+            width:140%;
+        }
+                
+        
+        
+        
+            }
+        }
+        }
+    }
+}

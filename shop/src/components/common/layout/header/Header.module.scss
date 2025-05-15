@@ -1,0 +1,175 @@
+.header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        width: 90%;
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+
+
+        .logo{
+
+            img{
+                width: 50%;
+            }
+        }
+        
+ .navbar{
+   ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    gap: 8px;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+   }
+
+ }
+
+ .icon{
+    font-size: 18px;
+    display: flex;
+    gap: 7px;
+
+ }
+
+ .hamburger{
+    display: none;
+ }
+    }
+}
+
+
+@media screen and (min-width:700px)  and (max-width:1024px) {
+
+    .header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        width: 90%;
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+
+
+        .logo{
+
+            img{
+                width: 50%;
+            }
+        }
+        
+ .navbar{
+    display: none;
+   ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    gap: 8px;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+   }
+
+ }
+
+ .icon{
+    display: none;
+    font-size: 18px;
+    display: flex;
+    gap: 7px;
+    svg{
+        display: none;
+    }
+
+ }
+
+ .hamburger{
+    display: block;
+ }
+    }
+}
+
+}
+
+@media screen and (min-width:300px)  and (max-width:700px) {
+
+    .header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        width: 90%;
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+
+
+        .logo{
+
+            img{
+                width: 50%;
+            }
+        }
+        
+ .navbar{
+    display: none;
+   ul{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    gap: 8px;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+   }
+
+ }
+
+ .icon{
+    display: none;
+    font-size: 18px;
+    display: flex;
+    gap: 7px;
+    svg{
+        display: none;
+    }
+
+ }
+
+ .hamburger{
+    display: block;
+ }
+    }
+}
+
+}

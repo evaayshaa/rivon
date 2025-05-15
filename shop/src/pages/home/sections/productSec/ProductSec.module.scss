@@ -1,0 +1,22 @@
+.container{
+ 
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    
+
+
+    .card{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        
+    }
+}
